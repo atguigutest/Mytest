@@ -39,6 +39,8 @@ public class TestServiceImpl implements TestService{
         return tests.size() == 0 && baseDAO.add(u);
     }
 
-
+    public void test1() {
+        System.out.println("aaa");
+    }
 
 }
